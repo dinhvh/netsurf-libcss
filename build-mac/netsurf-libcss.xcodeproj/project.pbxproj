@@ -131,7 +131,6 @@
 		C656EA4F1748155900D1A639 /* column_rule.c in Sources */ = {isa = PBXBuildFile; fileRef = C656E73C174812AC00D1A639 /* column_rule.c */; };
 		C656EA501748155900D1A639 /* columns.c in Sources */ = {isa = PBXBuildFile; fileRef = C656E73D174812AC00D1A639 /* columns.c */; };
 		C656EA511748155900D1A639 /* content.c in Sources */ = {isa = PBXBuildFile; fileRef = C656E73E174812AC00D1A639 /* content.c */; };
-		C656EA521748155900D1A639 /* css_property_parser_gen.c in Sources */ = {isa = PBXBuildFile; fileRef = C656E73F174812AC00D1A639 /* css_property_parser_gen.c */; };
 		C656EA531748155900D1A639 /* cue.c in Sources */ = {isa = PBXBuildFile; fileRef = C656E740174812AC00D1A639 /* cue.c */; };
 		C656EA541748155900D1A639 /* cursor.c in Sources */ = {isa = PBXBuildFile; fileRef = C656E741174812AC00D1A639 /* cursor.c */; };
 		C656EA551748155900D1A639 /* elevation.c in Sources */ = {isa = PBXBuildFile; fileRef = C656E742174812AC00D1A639 /* elevation.c */; };
@@ -452,7 +451,6 @@
 		C656E73C174812AC00D1A639 /* column_rule.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = column_rule.c; sourceTree = "<group>"; };
 		C656E73D174812AC00D1A639 /* columns.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = columns.c; sourceTree = "<group>"; };
 		C656E73E174812AC00D1A639 /* content.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = content.c; sourceTree = "<group>"; };
-		C656E73F174812AC00D1A639 /* css_property_parser_gen.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = css_property_parser_gen.c; sourceTree = "<group>"; };
 		C656E740174812AC00D1A639 /* cue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cue.c; sourceTree = "<group>"; };
 		C656E741174812AC00D1A639 /* cursor.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cursor.c; sourceTree = "<group>"; };
 		C656E742174812AC00D1A639 /* elevation.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = elevation.c; sourceTree = "<group>"; };
@@ -878,7 +876,6 @@
 				C656E73C174812AC00D1A639 /* column_rule.c */,
 				C656E73D174812AC00D1A639 /* columns.c */,
 				C656E73E174812AC00D1A639 /* content.c */,
-				C656E73F174812AC00D1A639 /* css_property_parser_gen.c */,
 				C656E740174812AC00D1A639 /* cue.c */,
 				C656E741174812AC00D1A639 /* cursor.c */,
 				C656E742174812AC00D1A639 /* elevation.c */,
@@ -1449,7 +1446,6 @@
 				C656EA4F1748155900D1A639 /* column_rule.c in Sources */,
 				C656EA501748155900D1A639 /* columns.c in Sources */,
 				C656EA511748155900D1A639 /* content.c in Sources */,
-				C656EA521748155900D1A639 /* css_property_parser_gen.c in Sources */,
 				C656EA531748155900D1A639 /* cue.c in Sources */,
 				C656EA541748155900D1A639 /* cursor.c in Sources */,
 				C656EA551748155900D1A639 /* elevation.c in Sources */,
@@ -1809,6 +1805,7 @@
 				C656E9B41748150E00D1A639 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C656E9BA1748151400D1A639 /* Build configuration list for PBXNativeTarget "libparserutils" */ = {
 			isa = XCConfigurationList;
@@ -1817,6 +1814,7 @@
 				C656E9BC1748151400D1A639 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C656E9C21748152100D1A639 /* Build configuration list for PBXNativeTarget "libwapcaplet" */ = {
 			isa = XCConfigurationList;
@@ -1825,6 +1823,7 @@
 				C656E9C41748152100D1A639 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
